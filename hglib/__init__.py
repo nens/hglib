@@ -1,6 +1,6 @@
 import client, subprocess, util, error
 
-HGPATH = 'hg'
+HGPATH = '/usr/local/bin/hg'
 
 def open(path=None, encoding=None, configs=None):
     ''' starts a cmdserver for the given path (or for a repository found in the

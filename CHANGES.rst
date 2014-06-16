@@ -5,7 +5,7 @@ Changelog of hglib
 0.3 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Re-added HGPLAIN, changed HGPATH to /usr/local/bin/hg.
 
 
 0.2 (2014-06-16)

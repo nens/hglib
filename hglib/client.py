@@ -48,7 +48,7 @@ class hgclient(object):
             self._args += ['-R', path]
         if configs:
             self._args += ['--config'] + configs
-        self._env = {}  # {'HGPLAIN': '1'}
+        self._env = {'HGPLAIN': '1'}
         if encoding:
             self._env['HGENCODING'] = encoding
 
