@@ -5,7 +5,7 @@ Changelog of hglib
 0.2 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Removed environment variable HGPLAIN from client.py.
 
 
 0.1 (2013-11-21)
