@@ -1,6 +1,11 @@
-import client, subprocess, util, error
+import client, subprocess, util, error, os
 
-HGPATH = '/usr/local/bin/hg'
+HGPATH = 'hg'
+
+if os.path.exists('/usr/local/bin/hg'):
+    HGPATH = '/usr/local/bin/hg'
+elif os.path.exists('/usr/bin/hg'):
+    HGPATH = '/usr/bin/hg'
 
 def open(path=None, encoding=None, configs=None):
     ''' starts a cmdserver for the given path (or for a repository found in the

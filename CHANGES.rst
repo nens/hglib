@@ -5,7 +5,7 @@ Changelog of hglib
 0.4 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Added auto-detection of /usr/local/bin/hg or /usr/bin/hg.
 
 
 0.3 (2014-06-16)
