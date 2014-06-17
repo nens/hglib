@@ -2,7 +2,7 @@ Changelog of hglib
 ===================================================
 
 
-0.4 (unreleased)
+0.4 (2014-06-17)
 ----------------
 
 - Added auto-detection of /usr/local/bin/hg or /usr/bin/hg.
